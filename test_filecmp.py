@@ -6,4 +6,4 @@
 
 import filecmp
 
-print(filecmp.cmp('Samples/hoge.txt', 'Samples/hogehoge.txt'))
+print(filecmp.cmp('./hoge.txt', './hogehoge.txt'))
