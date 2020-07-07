@@ -78,8 +78,7 @@ print(test_dict_1)
 
 for i in test_dict_1:
     print("-----")
-    print(i) #key値が取れる
-    print(test_dict_1[i]) #valueが取れる
-    print(test_dict_1.get(i)) #valueが取れる
+    print(i)  # key値が取れる
+    print(test_dict_1[i])  # valueが取れる
+    print(test_dict_1.get(i))  # valueが取れる
     print("-----")
-
