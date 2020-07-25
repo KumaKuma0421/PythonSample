@@ -21,6 +21,9 @@ class Entity1:
     def row_context(self):
         return (self.Kind, self.Distributor, self.Received, self.Occured, self.Category, self.Place, self.Contents)
 
+    def row_context_debug(self):
+        return (self.Occured, self.Category_org, self.Category, self.Place_org, self.Place)
+
     @property
     def Kind(self):
         return self._kind
