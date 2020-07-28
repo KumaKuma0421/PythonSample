@@ -3,13 +3,11 @@
 """
 
 import glob
-import re
 import os
 
-#path = "C:/Users/User01/Documents/**"
-path = "/home/user01/**"
+path = "C:/Users/User01/Documents/**"
+#path = "/home/user01/**"
 
-#myFileList = glob.glob(path, recursive=True)
-myFileList = [p for p in glob.glob(path, recursive=True) if os.path.isfile(p)]
-for myFile in myFileList:
-    print(myFile)
+file_list = [p for p in glob.glob(path, recursive=True) if os.path.isfile(p)]
+for file in file_list:
+    print(file)

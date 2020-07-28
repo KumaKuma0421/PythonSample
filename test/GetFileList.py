@@ -1,8 +1,7 @@
 import os
 
-#path = "C:\\Users\\User01\\Documents"
-path = "/home/user01/"
-
+path = "C:\\Users\\User01\\Documents"
+#path = "/home/user01/"
 
 # カレントディレクトリを取得します。
 print("now we are in " + os.getcwd() + ".")
@@ -21,7 +20,8 @@ with os.scandir(absPath) as it:
         stat_result = file.stat()
         print("  stat_result.st_size=" + str(stat_result.st_size))
         print("  stat_result.st_mtime=" + str(stat_result.st_mtime))
-        print("  stat_result.st_file_attributes=" + str(stat_result.st_file_attributes))
+        print("  stat_result.st_file_attributes=" +
+              str(stat_result.st_file_attributes))
 
 files = os.listdir(path)
 print(files)
