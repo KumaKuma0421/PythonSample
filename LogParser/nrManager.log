@@ -1,0 +1,938 @@
+2020-07-10 01:56:11,067 17876 INFO    - NrManagerImpl::init IN
+2020-07-10 01:56:11,067 17876 INFO    - NrManagerImpl::init END
+2020-07-10 01:56:11,067 17876 INFO    - NrManager::init() start()
+2020-07-10 01:56:11,067 17876 INFO    - TcpConnector::constructor INport[52004]
+2020-07-10 01:56:11,067 17876 INFO    - TcpConnector::constructor ip[172.16.1.142] port[52004] timeout[10]
+2020-07-10 01:56:11,067 17876 INFO    - TcpConnector::openTcpServer INport[52004]
+2020-07-10 01:56:11,068 11756 INFO    - TcpConnector::tcpAcceptThread INport[52004]
+2020-07-10 01:56:11,068 17876 INFO    - TcpConnector::openTcpServer ENDport[52004]
+2020-07-10 01:56:11,069 17876 INFO    - TcpConnector::constructor ENDport[52004]
+2020-07-10 01:56:11,069 17876 INFO    - TcpConnector::constructor INport[52011]
+2020-07-10 01:56:11,069 17876 INFO    - TcpConnector::constructor ip[172.16.1.142] port[52011] timeout[10]
+2020-07-10 01:56:11,069 17876 INFO    - TcpConnector::openTcpServer INport[52011]
+2020-07-10 01:56:11,070 8452 INFO    - TcpConnector::tcpAcceptThread INport[52011]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::openTcpServer ENDport[52011]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::constructor ENDport[52011]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::constructor INport[52012]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::constructor ip[172.16.1.142] port[52012] timeout[10]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::openTcpServer INport[52012]
+2020-07-10 01:56:11,070 7512 INFO    - TcpConnector::tcpAcceptThread INport[52012]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::openTcpServer ENDport[52012]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::constructor ENDport[52012]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::constructor INport[52021]
+2020-07-10 01:56:11,070 17876 INFO    - TcpConnector::constructor ip[172.16.1.142] port[52021] timeout[10]
+2020-07-10 01:56:11,071 17876 INFO    - TcpConnector::openTcpServer INport[52021]
+2020-07-10 01:56:11,071 13092 INFO    - TcpConnector::tcpAcceptThread INport[52021]
+2020-07-10 01:56:11,071 17876 INFO    - TcpConnector::openTcpServer ENDport[52021]
+2020-07-10 01:56:11,071 17876 INFO    - TcpConnector::constructor ENDport[52021]
+2020-07-10 01:56:11,071 17876 INFO    - TcpConnector::constructor INport[52022]
+2020-07-10 01:56:11,071 17876 INFO    - TcpConnector::constructor ip[172.16.1.142] port[52022] timeout[10]
+2020-07-10 01:56:11,071 17876 INFO    - TcpConnector::openTcpServer INport[52022]
+2020-07-10 01:56:11,072 13332 INFO    - TcpConnector::tcpAcceptThread INport[52022]
+2020-07-10 01:56:11,072 17876 INFO    - TcpConnector::openTcpServer ENDport[52022]
+2020-07-10 01:56:11,072 17876 INFO    - TcpConnector::constructor ENDport[52022]
+2020-07-10 01:56:11,072 17876 INFO    - NrManagerImpl::start SUCCESS.
+2020-07-10 01:56:11,072 17876 INFO    - NrManager::init() wait for end
+2020-07-10 01:56:15,166 8452 INFO    - TcpConnector::tcpAcceptThread accept.port[52011]
+2020-07-10 01:56:15,167 22156 INFO    - TcpConnector::tcpSendThread INport[52011]
+2020-07-10 01:56:15,167 16452 INFO    - TcpConnector::tcpRecvThread INport[52011]
+2020-07-10 01:56:15,167 16452 INFO    - NrManagerImpl::onConnect IN port[52011]
+2020-07-10 01:56:15,167 16452 INFO   EventLog - 接続_Nrプロセッサ port[52011]
+2020-07-10 01:56:15,168 16452 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:56:15,168 16452 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:56:15,168 16452 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:56:15,168 16452 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:56:15,168 16452 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:56:15,168 16452 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:56:15,169 16452 INFO    - NrManagerImpl::onConnect END port[52011]
+2020-07-10 01:56:22,146 13092 INFO    - TcpConnector::tcpAcceptThread accept.port[52021]
+2020-07-10 01:56:22,146 19628 INFO    - TcpConnector::tcpSendThread INport[52021]
+2020-07-10 01:56:22,147 7764 INFO    - TcpConnector::tcpRecvThread INport[52021]
+2020-07-10 01:56:22,147 7764 INFO    - NrManagerImpl::onConnect IN port[52021]
+2020-07-10 01:56:22,147 7764 INFO   EventLog - 接続_Nrプロセッサ port[52021]
+2020-07-10 01:56:22,147 7764 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:56:22,148 7764 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:56:22,148 7764 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:56:22,148 7764 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:56:22,148 7764 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:56:22,148 7764 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:56:22,148 7764 INFO    - NrManagerImpl::onConnect END port[52021]
+2020-07-10 01:57:33,229 11756 INFO    - TcpConnector::tcpAcceptThread accept.port[52004]
+2020-07-10 01:57:33,229 19036 INFO    - TcpConnector::tcpSendThread INport[52004]
+2020-07-10 01:57:33,230 16796 INFO    - TcpConnector::tcpRecvThread INport[52004]
+2020-07-10 01:57:33,230 16796 INFO    - NrManagerImpl::onConnect IN port[52004]
+2020-07-10 01:57:33,230 16796 INFO   EventLog - 接続_RL port[52004]
+2020-07-10 01:57:33,231 16796 INFO    - NrManagerImpl::onConnect END port[52004]
+2020-07-10 01:57:34,229 16796 INFO    - NrManagerImpl::onReceive REQ_FRAMEDATA_CONFIG.port[52004]
+2020-07-10 01:57:34,231 16796 INFO    - NrMessageStorage::constructor IN sqlite3_threadsafe=1
+2020-07-10 01:57:34,232 16796 INFO    - NrMessageStorage::constructor END
+2020-07-10 01:57:34,232 16796 INFO    - NrMessageStorage::NrMessageStorage open storage[202007100157.db3]
+2020-07-10 01:57:34,233 16796 INFO    - NrManagerImpl::初期化情報Aを送信 port[52011]
+2020-07-10 01:57:34,233 16796 INFO    - NrManagerImpl::初期化情報Aを送信 port[52021]
+2020-07-10 01:58:01,799 16796 INFO    - NrManagerImpl::onReceive REQ_INITIALDATA_CONFIG.port[52004]
+2020-07-10 01:58:01,800 16452 INFO    - NrManagerImpl::onReceive RES_INITIALDATA_CONFIG.port[52011]
+2020-07-10 01:58:01,804 16796 INFO    - NrManagerImpl::初期化情報Bを送信 port[52011]
+2020-07-10 01:58:01,805 7764 INFO    - NrManagerImpl::onReceive RES_INITIALDATA_CONFIG.port[52021]
+2020-07-10 01:58:01,809 16796 INFO    - NrManagerImpl::初期化情報Bを送信 port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - TcpConnector::receivePacket closed by remote host.port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - TcpConnector::tcpRecvThread stopped.port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - NrManagerImpl::onDisconnect IN port[52021]
+2020-07-10 01:58:02,474 7764 INFO   EventLog - 切断_Nrプロセッサ port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:58:02,474 7764 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:58:02,474 7764 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:58:02,474 7764 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:58:02,474 7764 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:58:02,479 7764 INFO    - NrManagerImpl::onDisconnect END port[52021]
+2020-07-10 01:58:02,479 7764 INFO    - TcpConnector::tcpRecvThread ENDport[52021]
+2020-07-10 01:58:02,479 19628 INFO    - TcpConnector::tcpSendThread ENDport[52021]
+2020-07-10 01:58:02,496 16452 INFO    - TcpConnector::receivePacket closed by remote host.port[52011]
+2020-07-10 01:58:02,497 16452 INFO    - TcpConnector::tcpRecvThread stopped.port[52011]
+2020-07-10 01:58:02,497 16452 INFO    - NrManagerImpl::onDisconnect IN port[52011]
+2020-07-10 01:58:02,497 16452 INFO   EventLog - 切断_Nrプロセッサ port[52011]
+2020-07-10 01:58:02,497 16452 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:58:02,497 16452 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:58:02,497 16452 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:58:02,497 16452 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:58:02,498 16452 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:58:02,498 16452 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:58:02,498 16452 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:58:02,498 16452 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:58:02,501 16452 INFO    - NrManagerImpl::onDisconnect END port[52011]
+2020-07-10 01:58:02,501 16452 INFO    - TcpConnector::tcpRecvThread ENDport[52011]
+2020-07-10 01:58:02,501 22156 INFO    - TcpConnector::tcpSendThread ENDport[52011]
+2020-07-10 01:58:03,360 13092 INFO    - TcpConnector::tcpAcceptThread accept.port[52021]
+2020-07-10 01:58:03,360 13092 INFO    - TcpConnector::closeTcpConnect INport[52021]
+2020-07-10 01:58:03,360 13092 INFO    - TcpConnector::closeTcpConnect ENDport[52021]
+2020-07-10 01:58:03,361 19504 INFO    - TcpConnector::tcpSendThread INport[52021]
+2020-07-10 01:58:03,361 20896 INFO    - TcpConnector::tcpRecvThread INport[52021]
+2020-07-10 01:58:03,361 20896 INFO    - NrManagerImpl::onConnect IN port[52021]
+2020-07-10 01:58:03,361 20896 INFO   EventLog - 接続_Nrプロセッサ port[52021]
+2020-07-10 01:58:03,361 20896 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:58:03,361 20896 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:58:03,362 20896 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:58:03,362 20896 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:58:03,362 20896 INFO    - NrManagerImpl::初期化情報Aを送信 port[52021]
+2020-07-10 01:58:03,362 20896 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:58:03,362 20896 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:58:03,365 20896 INFO    - NrManagerImpl::onConnect END port[52021]
+2020-07-10 01:58:03,645 8452 INFO    - TcpConnector::tcpAcceptThread accept.port[52011]
+2020-07-10 01:58:03,646 8452 INFO    - TcpConnector::closeTcpConnect INport[52011]
+2020-07-10 01:58:03,646 8452 INFO    - TcpConnector::closeTcpConnect ENDport[52011]
+2020-07-10 01:58:03,646 15236 INFO    - TcpConnector::tcpSendThread INport[52011]
+2020-07-10 01:58:03,646 12416 INFO    - TcpConnector::tcpRecvThread INport[52011]
+2020-07-10 01:58:03,647 12416 INFO    - NrManagerImpl::onConnect IN port[52011]
+2020-07-10 01:58:03,647 12416 INFO   EventLog - 接続_Nrプロセッサ port[52011]
+2020-07-10 01:58:03,647 12416 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:58:03,647 12416 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:58:03,647 12416 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:58:03,647 12416 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:58:03,647 12416 INFO    - NrManagerImpl::初期化情報Aを送信 port[52011]
+2020-07-10 01:58:03,647 12416 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:58:03,647 12416 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:58:03,651 12416 INFO    - NrManagerImpl::onConnect END port[52011]
+2020-07-10 01:58:12,517 16796 INFO    - NrManagerImpl::onReceive ACT_START_ACTION. actId[DFE-20200710015801884]port[52004]
+2020-07-10 01:58:12,517 16796 INFO   EventLog - 演技開始 actId[DFE-20200710015801884]
+2020-07-10 01:58:12,518 16796 INFO    - NrMessageStorage::dropTable IN actId[DFE-20200710015801884]
+2020-07-10 01:58:12,518 16796 INFO    - NrMessageStorage::dropTable END
+2020-07-10 01:58:12,518 16796 INFO    - NrMessageStorage::createTable IN actId[DFE-20200710015801884]
+2020-07-10 01:58:12,520 16796 INFO    - NrMessageStorage::createTable END
+2020-07-10 01:58:12,526 16796 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:58:12,526 16796 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 01:58:12,526 16796 INFO    - NrManagerImpl::attachProcessor waiting processor exists. port[52011]
+2020-07-10 01:58:12,526 16796 INFO    - TcpConnector::startSilenceWatch IN port[52011]
+2020-07-10 01:58:12,526 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:58:12,526 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:58:12,528 14728 INFO    - TcpConnector::silenceWatchThread INport[52011]
+2020-07-10 01:58:12,528 16796 INFO    - TcpConnector::startSilenceWatch END port[52011]
+2020-07-10 01:58:12,528 16796 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:58:12,528 16796 INFO    - TcpConnector::startSilenceWatch IN port[52004]
+2020-07-10 01:58:12,528 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 01:58:12,528 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 01:58:12,529 3104 INFO    - TcpConnector::silenceWatchThread INport[52004]
+2020-07-10 01:58:12,529 16796 INFO    - TcpConnector::startSilenceWatch END port[52004]
+2020-07-10 01:58:26,873 12416 INFO    - NrManagerImpl::attachProcessor IN port[52011]
+2020-07-10 01:58:26,873 12416 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 01:58:26,873 12416 INFO   EventLog - 演技割付 actId[DFE-20200710015801884]port[52011]
+2020-07-10 01:58:26,878 12416 INFO    - NrManagerImpl::attachProcessor END port[52011]
+2020-07-10 01:58:33,970 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:33,970 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[584] recv[581] req[581] port[52011]
+2020-07-10 01:58:34,150 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:34,150 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[590] recv[587] req[587] port[52011]
+2020-07-10 01:58:34,650 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:34,651 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[604] recv[601] req[601] port[52011]
+2020-07-10 01:58:34,790 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:34,790 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[608] recv[605] req[605] port[52011]
+2020-07-10 01:58:34,929 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:34,929 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[612] recv[609] req[609] port[52011]
+2020-07-10 01:58:35,065 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,065 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[616] recv[613] req[613] port[52011]
+2020-07-10 01:58:35,200 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,200 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[620] recv[617] req[617] port[52011]
+2020-07-10 01:58:35,336 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,336 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[624] recv[621] req[621] port[52011]
+2020-07-10 01:58:35,473 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,473 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[628] recv[625] req[625] port[52011]
+2020-07-10 01:58:35,609 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,610 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[632] recv[629] req[629] port[52011]
+2020-07-10 01:58:35,737 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,737 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[635] recv[632] req[632] port[52011]
+2020-07-10 01:58:35,882 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:35,882 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[640] recv[637] req[637] port[52011]
+2020-07-10 01:58:36,016 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,016 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[644] recv[641] req[641] port[52011]
+2020-07-10 01:58:36,145 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,146 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[647] recv[645] req[644] port[52011]
+2020-07-10 01:58:36,282 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,282 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[651] recv[648] req[648] port[52011]
+2020-07-10 01:58:36,418 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,418 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[655] recv[652] req[652] port[52011]
+2020-07-10 01:58:36,554 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,554 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[659] recv[656] req[656] port[52011]
+2020-07-10 01:58:36,692 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,692 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[663] recv[660] req[660] port[52011]
+2020-07-10 01:58:36,827 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,827 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[667] recv[664] req[664] port[52011]
+2020-07-10 01:58:36,963 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:36,963 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[671] recv[668] req[668] port[52011]
+2020-07-10 01:58:37,099 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:37,099 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[675] recv[672] req[672] port[52011]
+2020-07-10 01:58:37,235 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:37,235 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[679] recv[676] req[676] port[52011]
+2020-07-10 01:58:37,372 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:37,372 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[683] recv[680] req[680] port[52011]
+2020-07-10 01:58:37,499 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:37,499 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[686] recv[683] req[683] port[52011]
+2020-07-10 01:58:37,627 12416 WARN    - NrMessageStorage::get step no data
+2020-07-10 01:58:37,627 12416 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710015801884] SeqId[689] recv[686] req[686] port[52011]
+2020-07-10 01:58:37,635 16796 INFO    - NrManagerImpl::onReceive ACT_END_ACTION. actId[DFE-20200710015801884]port[52004]
+2020-07-10 01:58:37,635 16796 INFO   EventLog - 演技終了 actId[DFE-20200710015801884]
+2020-07-10 01:58:37,636 16796 INFO    - NrManagerImpl::onReceive NrProcessorに演技終了コマンドを送信 port[52011]
+2020-07-10 01:58:37,636 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 01:58:37,636 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 01:58:38,315 12416 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:58:38,315 12416 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:58:38,315 12416 INFO   EventLog - ファイル出力完了 OK actId[DFE-20200710015801884]port[52011]
+2020-07-10 01:58:38,320 12416 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY. MAP Erase DFE-20200710015801884
+2020-07-10 01:58:38,320 12416 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json {"id":"DFE-20200710015801884", "type":"nearreal"} port[52011]
+2020-07-10 01:58:38,320 12416 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:58:38,320 12416 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:59:31,585 16796 INFO    - NrManagerImpl::onReceive REQ_INITIALDATA_CONFIG.port[52004]
+2020-07-10 01:59:31,586 12416 INFO    - NrManagerImpl::onReceive RES_INITIALDATA_CONFIG.port[52011]
+2020-07-10 01:59:31,590 16796 INFO    - NrManagerImpl::初期化情報Bを送信 port[52011]
+2020-07-10 01:59:31,590 20896 INFO    - NrManagerImpl::onReceive RES_INITIALDATA_CONFIG.port[52021]
+2020-07-10 01:59:31,593 16796 INFO    - NrManagerImpl::初期化情報Bを送信 port[52021]
+2020-07-10 01:59:31,721 12416 INFO    - TcpConnector::receivePacket closed by remote host.port[52011]
+2020-07-10 01:59:31,722 12416 INFO    - TcpConnector::tcpRecvThread stopped.port[52011]
+2020-07-10 01:59:31,722 12416 INFO    - NrManagerImpl::onDisconnect IN port[52011]
+2020-07-10 01:59:31,722 12416 INFO   EventLog - 切断_Nrプロセッサ port[52011]
+2020-07-10 01:59:31,723 12416 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:59:31,723 12416 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:59:31,723 12416 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:59:31,723 12416 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:59:31,723 12416 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:59:31,723 12416 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:59:31,723 12416 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:59:31,723 12416 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:59:31,730 12416 INFO    - NrManagerImpl::onDisconnect END port[52011]
+2020-07-10 01:59:31,730 12416 INFO    - TcpConnector::tcpRecvThread ENDport[52011]
+2020-07-10 01:59:31,730 15236 INFO    - TcpConnector::tcpSendThread ENDport[52011]
+2020-07-10 01:59:32,595 8452 INFO    - TcpConnector::tcpAcceptThread accept.port[52011]
+2020-07-10 01:59:32,595 8452 INFO    - TcpConnector::closeTcpConnect INport[52011]
+2020-07-10 01:59:32,595 8452 INFO    - TcpConnector::closeTcpConnect ENDport[52011]
+2020-07-10 01:59:32,596 16948 INFO    - TcpConnector::tcpSendThread INport[52011]
+2020-07-10 01:59:32,596 20460 INFO    - TcpConnector::tcpRecvThread INport[52011]
+2020-07-10 01:59:32,596 20460 INFO    - NrManagerImpl::onConnect IN port[52011]
+2020-07-10 01:59:32,596 20460 INFO   EventLog - 接続_Nrプロセッサ port[52011]
+2020-07-10 01:59:32,597 20460 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:59:32,597 20460 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:59:32,597 20460 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:59:32,597 20460 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:59:32,597 20460 INFO    - NrManagerImpl::初期化情報Aを送信 port[52011]
+2020-07-10 01:59:32,597 20460 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:59:32,597 20460 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:59:32,601 20460 INFO    - NrManagerImpl::onConnect END port[52011]
+2020-07-10 01:59:32,715 20896 INFO    - TcpConnector::receivePacket closed by remote host.port[52021]
+2020-07-10 01:59:32,715 20896 INFO    - TcpConnector::tcpRecvThread stopped.port[52021]
+2020-07-10 01:59:32,715 20896 INFO    - NrManagerImpl::onDisconnect IN port[52021]
+2020-07-10 01:59:32,715 20896 INFO   EventLog - 切断_Nrプロセッサ port[52021]
+2020-07-10 01:59:32,715 20896 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:59:32,715 20896 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:59:32,715 20896 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:59:32,715 20896 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:59:32,715 20896 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:59:32,716 20896 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:59:32,716 20896 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:59:32,716 20896 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:59:32,719 20896 INFO    - NrManagerImpl::onDisconnect END port[52021]
+2020-07-10 01:59:32,719 20896 INFO    - TcpConnector::tcpRecvThread ENDport[52021]
+2020-07-10 01:59:32,719 19504 INFO    - TcpConnector::tcpSendThread ENDport[52021]
+2020-07-10 01:59:33,749 13092 INFO    - TcpConnector::tcpAcceptThread accept.port[52021]
+2020-07-10 01:59:33,749 13092 INFO    - TcpConnector::closeTcpConnect INport[52021]
+2020-07-10 01:59:33,749 13092 INFO    - TcpConnector::closeTcpConnect ENDport[52021]
+2020-07-10 01:59:33,749 21012 INFO    - TcpConnector::tcpSendThread INport[52021]
+2020-07-10 01:59:33,749 21920 INFO    - TcpConnector::tcpRecvThread INport[52021]
+2020-07-10 01:59:33,749 21920 INFO    - NrManagerImpl::onConnect IN port[52021]
+2020-07-10 01:59:33,749 21920 INFO   EventLog - 接続_Nrプロセッサ port[52021]
+2020-07-10 01:59:33,750 21920 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 01:59:33,750 21920 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 01:59:33,750 21920 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 01:59:33,750 21920 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 01:59:33,750 21920 INFO    - NrManagerImpl::初期化情報Aを送信 port[52021]
+2020-07-10 01:59:33,750 21920 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:59:33,750 21920 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:59:33,752 21920 INFO    - NrManagerImpl::onConnect END port[52021]
+2020-07-10 01:59:35,615 16796 INFO    - NrManagerImpl::onReceive ACT_START_ACTION. actId[e7d6f43-dcec-423c-88e4-c20c620200710]port[52004]
+2020-07-10 01:59:35,615 16796 INFO   EventLog - 演技開始 actId[e7d6f43-dcec-423c-88e4-c20c620200710]
+2020-07-10 01:59:35,616 16796 INFO    - NrMessageStorage::dropTable IN actId[e7d6f43-dcec-423c-88e4-c20c620200710]
+2020-07-10 01:59:35,616 16796 INFO    - NrMessageStorage::dropTable END
+2020-07-10 01:59:35,616 16796 INFO    - NrMessageStorage::createTable IN actId[e7d6f43-dcec-423c-88e4-c20c620200710]
+2020-07-10 01:59:35,617 16796 INFO    - NrMessageStorage::createTable END
+2020-07-10 01:59:35,624 16796 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 01:59:35,624 16796 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 01:59:35,624 16796 INFO    - NrManagerImpl::attachProcessor waiting processor exists. port[52011]
+2020-07-10 01:59:35,624 16796 INFO    - TcpConnector::startSilenceWatch IN port[52011]
+2020-07-10 01:59:35,624 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 01:59:35,624 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 01:59:35,624 16796 INFO    - TcpConnector::startSilenceWatch END port[52011]
+2020-07-10 01:59:35,624 16796 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 01:59:35,624 16796 INFO    - TcpConnector::startSilenceWatch IN port[52004]
+2020-07-10 01:59:35,625 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 01:59:35,625 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 01:59:35,625 16796 INFO    - TcpConnector::startSilenceWatch END port[52004]
+2020-07-10 01:59:44,603 16796 INFO    - NrManagerImpl::onReceive ACT_END_ACTION. actId[e7d6f43-dcec-423c-88e4-c20c620200710]port[52004]
+2020-07-10 01:59:44,604 16796 INFO   EventLog - 演技終了 actId[e7d6f43-dcec-423c-88e4-c20c620200710]
+2020-07-10 01:59:44,604 16796 ERROR   - NrManagerImpl::getProcessorState not found  e7d6f43-dcec-423c-88e4-c20c620200710
+2020-07-10 01:59:44,616 16796 ERROR   - NrManagerImpl::onReceive Target processor not found e7d6f43-dcec-423c-88e4-c20c620200710
+2020-07-10 01:59:44,626 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 01:59:44,626 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 01:59:53,348 18856 INFO    - PostJson::post resultText[<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (tcp_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+A communication error occurred: "Operation timed out"
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+]
+2020-07-10 01:59:53,348 18856 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json response <HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (tcp_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+A communication error occurred: "Operation timed out"
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+
+2020-07-10 01:59:55,763 20460 INFO    - NrManagerImpl::attachProcessor IN port[52011]
+2020-07-10 01:59:55,763 20460 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 01:59:55,763 20460 INFO   EventLog - 演技割付 actId[e7d6f43-dcec-423c-88e4-c20c620200710]port[52011]
+2020-07-10 01:59:55,767 20460 INFO    - NrManagerImpl::attachProcessor END port[52011]
+2020-07-10 02:00:00,558 20460 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:00:00,558 20460 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:00:00,558 20460 INFO   EventLog - ファイル出力完了 OK actId[e7d6f43-dcec-423c-88e4-c20c620200710]port[52011]
+2020-07-10 02:00:00,563 20460 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY. MAP Erase e7d6f43-dcec-423c-88e4-c20c620200710
+2020-07-10 02:00:00,563 20460 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json {"id":"e7d6f43-dcec-423c-88e4-c20c620200710", "type":"nearreal"} port[52011]
+2020-07-10 02:00:00,563 20460 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:00:00,563 20460 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:00:42,674 16796 INFO    - NrManagerImpl::onReceive ACT_START_ACTION. actId[DFE-20200710020032050]port[52004]
+2020-07-10 02:00:42,674 16796 INFO   EventLog - 演技開始 actId[DFE-20200710020032050]
+2020-07-10 02:00:42,675 16796 INFO    - NrMessageStorage::dropTable IN actId[DFE-20200710020032050]
+2020-07-10 02:00:42,675 16796 INFO    - NrMessageStorage::dropTable END
+2020-07-10 02:00:42,675 16796 INFO    - NrMessageStorage::createTable IN actId[DFE-20200710020032050]
+2020-07-10 02:00:42,677 16796 INFO    - NrMessageStorage::createTable END
+2020-07-10 02:00:42,685 16796 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:00:42,685 16796 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 02:00:42,685 16796 INFO    - NrManagerImpl::attachProcessor waiting processor exists. port[52011]
+2020-07-10 02:00:42,685 16796 INFO    - TcpConnector::startSilenceWatch IN port[52011]
+2020-07-10 02:00:42,685 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:00:42,685 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:00:42,685 16796 INFO    - TcpConnector::startSilenceWatch END port[52011]
+2020-07-10 02:00:42,685 16796 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:00:42,686 16796 INFO    - TcpConnector::startSilenceWatch IN port[52004]
+2020-07-10 02:00:42,686 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:00:42,686 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:00:42,686 16796 INFO    - TcpConnector::startSilenceWatch END port[52004]
+2020-07-10 02:00:42,686 20460 INFO    - NrManagerImpl::attachProcessor IN port[52011]
+2020-07-10 02:00:42,686 20460 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 02:00:42,686 20460 INFO   EventLog - 演技割付 actId[DFE-20200710020032050]port[52011]
+2020-07-10 02:00:42,691 20460 INFO    - NrManagerImpl::attachProcessor END port[52011]
+2020-07-10 02:00:42,691 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:42,691 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[3] recv[0] req[0] port[52011]
+2020-07-10 02:00:43,292 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:43,292 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[3] recv[0] req[0] port[52011]
+2020-07-10 02:00:43,893 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:43,893 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[3] recv[0] req[0] port[52011]
+2020-07-10 02:00:44,656 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:44,656 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[23] recv[20] req[20] port[52011]
+2020-07-10 02:00:44,792 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:44,792 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[27] recv[24] req[24] port[52011]
+2020-07-10 02:00:44,929 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:44,929 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[31] recv[28] req[28] port[52011]
+2020-07-10 02:00:45,064 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,064 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[35] recv[32] req[32] port[52011]
+2020-07-10 02:00:45,200 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,200 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[39] recv[36] req[36] port[52011]
+2020-07-10 02:00:45,328 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,330 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[42] recv[40] req[39] port[52011]
+2020-07-10 02:00:45,464 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,464 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[46] recv[43] req[43] port[52011]
+2020-07-10 02:00:45,602 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,602 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[50] recv[47] req[47] port[52011]
+2020-07-10 02:00:45,740 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,740 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[54] recv[51] req[51] port[52011]
+2020-07-10 02:00:45,877 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:45,878 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[58] recv[55] req[55] port[52011]
+2020-07-10 02:00:46,013 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:46,013 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[62] recv[59] req[59] port[52011]
+2020-07-10 02:00:46,149 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:46,149 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[66] recv[63] req[63] port[52011]
+2020-07-10 02:00:46,278 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:46,278 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[69] recv[66] req[66] port[52011]
+2020-07-10 02:00:46,414 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:46,414 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[73] recv[70] req[70] port[52011]
+2020-07-10 02:00:46,564 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:46,564 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[77] recv[74] req[74] port[52011]
+2020-07-10 02:00:48,473 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:48,473 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[133] recv[130] req[130] port[52011]
+2020-07-10 02:00:48,984 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:48,985 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[148] recv[145] req[145] port[52011]
+2020-07-10 02:00:49,123 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,123 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[152] recv[149] req[149] port[52011]
+2020-07-10 02:00:49,261 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,262 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[156] recv[153] req[153] port[52011]
+2020-07-10 02:00:49,399 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,399 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[160] recv[157] req[157] port[52011]
+2020-07-10 02:00:49,533 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,533 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[164] recv[161] req[161] port[52011]
+2020-07-10 02:00:49,660 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,661 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[167] recv[165] req[164] port[52011]
+2020-07-10 02:00:49,809 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,809 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[172] recv[169] req[169] port[52011]
+2020-07-10 02:00:49,937 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:49,938 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[175] recv[173] req[172] port[52011]
+2020-07-10 02:00:50,074 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,074 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[179] recv[176] req[176] port[52011]
+2020-07-10 02:00:50,210 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,210 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[183] recv[180] req[180] port[52011]
+2020-07-10 02:00:50,346 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,346 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[187] recv[184] req[184] port[52011]
+2020-07-10 02:00:50,481 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,482 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[191] recv[188] req[188] port[52011]
+2020-07-10 02:00:50,618 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,618 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[195] recv[192] req[192] port[52011]
+2020-07-10 02:00:50,754 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,755 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[199] recv[196] req[196] port[52011]
+2020-07-10 02:00:50,890 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:50,890 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[203] recv[200] req[200] port[52011]
+2020-07-10 02:00:51,026 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,026 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[207] recv[204] req[204] port[52011]
+2020-07-10 02:00:51,162 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,163 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[211] recv[208] req[208] port[52011]
+2020-07-10 02:00:51,298 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,298 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[215] recv[212] req[212] port[52011]
+2020-07-10 02:00:51,425 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,425 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[218] recv[215] req[215] port[52011]
+2020-07-10 02:00:51,560 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,560 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[222] recv[219] req[219] port[52011]
+2020-07-10 02:00:51,697 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,697 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[226] recv[223] req[223] port[52011]
+2020-07-10 02:00:51,823 20460 WARN    - NrMessageStorage::get step no data
+2020-07-10 02:00:51,823 20460 INFO    - NrManagerImpl::onReceive retry storage.get actId[DFE-20200710020032050] SeqId[229] recv[226] req[226] port[52011]
+2020-07-10 02:00:51,839 16796 INFO    - NrManagerImpl::onReceive ACT_END_ACTION. actId[DFE-20200710020032050]port[52004]
+2020-07-10 02:00:51,839 16796 INFO   EventLog - 演技終了 actId[DFE-20200710020032050]
+2020-07-10 02:00:51,840 16796 INFO    - NrManagerImpl::onReceive NrProcessorに演技終了コマンドを送信 port[52011]
+2020-07-10 02:00:51,840 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:00:51,840 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:00:52,511 20460 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:00:52,512 20460 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:00:52,512 20460 INFO   EventLog - ファイル出力完了 OK actId[DFE-20200710020032050]port[52011]
+2020-07-10 02:00:52,516 20460 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY. MAP Erase DFE-20200710020032050
+2020-07-10 02:00:52,516 20460 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json {"id":"DFE-20200710020032050", "type":"nearreal"} port[52011]
+2020-07-10 02:00:52,517 20460 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:00:52,517 20460 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:01:15,605 18752 INFO    - PostJson::post resultText[<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (tcp_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+A communication error occurred: "Operation timed out"
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+]
+2020-07-10 02:01:15,605 18752 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json response <HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (tcp_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+A communication error occurred: "Operation timed out"
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+
+2020-07-10 02:02:07,548 732 INFO    - PostJson::post resultText[<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (tcp_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+A communication error occurred: "Operation timed out"
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+]
+2020-07-10 02:02:07,548 732 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json response <HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (tcp_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+A communication error occurred: "Operation timed out"
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+
+2020-07-10 02:03:38,767 16796 INFO    - TcpConnector::receivePacket closed by remote host.port[52004]
+2020-07-10 02:03:38,767 16796 INFO    - TcpConnector::tcpRecvThread stopped.port[52004]
+2020-07-10 02:03:38,767 16796 INFO    - NrManagerImpl::onDisconnect IN port[52004]
+2020-07-10 02:03:38,767 16796 INFO   EventLog - ★WARN★_切断_RL port[52004]
+2020-07-10 02:03:38,768 16796 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:03:38,768 16796 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:03:38,768 16796 INFO    - NrMessageStorage::destructor IN
+2020-07-10 02:03:38,770 16796 INFO    - NrMessageStorage::destructor END
+2020-07-10 02:03:38,770 16796 INFO    - NrMessageStorage::~NrMessageStorage close storage[202007100157.db3]
+2020-07-10 02:03:38,770 16796 INFO    - NrManagerImpl::onDisconnect REALとの通信切断を通知 port[52011]
+2020-07-10 02:03:38,770 16796 INFO    - NrManagerImpl::onDisconnect REALとの通信切断を通知 port[52021]
+2020-07-10 02:03:38,775 16796 INFO    - NrManagerImpl::onDisconnect END port[52004]
+2020-07-10 02:03:38,775 16796 INFO    - TcpConnector::tcpRecvThread ENDport[52004]
+2020-07-10 02:03:38,775 19036 INFO    - TcpConnector::tcpSendThread ENDport[52004]
+2020-07-10 02:03:56,929 11756 INFO    - TcpConnector::tcpAcceptThread accept.port[52004]
+2020-07-10 02:03:56,929 11756 INFO    - TcpConnector::closeTcpConnect INport[52004]
+2020-07-10 02:03:56,929 11756 INFO    - TcpConnector::closeTcpConnect ENDport[52004]
+2020-07-10 02:03:56,930 13160 INFO    - TcpConnector::tcpSendThread INport[52004]
+2020-07-10 02:03:56,930 9904 INFO    - TcpConnector::tcpRecvThread INport[52004]
+2020-07-10 02:03:56,931 9904 INFO    - NrManagerImpl::onConnect IN port[52004]
+2020-07-10 02:03:56,931 9904 INFO   EventLog - 接続_RL port[52004]
+2020-07-10 02:03:56,935 9904 INFO    - NrManagerImpl::onConnect END port[52004]
+2020-07-10 02:03:57,931 9904 INFO    - NrManagerImpl::onReceive REQ_FRAMEDATA_CONFIG.port[52004]
+2020-07-10 02:03:57,932 9904 INFO    - NrMessageStorage::constructor IN sqlite3_threadsafe=1
+2020-07-10 02:03:57,933 9904 INFO    - NrMessageStorage::constructor END
+2020-07-10 02:03:57,933 9904 INFO    - NrMessageStorage::NrMessageStorage open storage[202007100203.db3]
+2020-07-10 02:03:57,933 20460 INFO    - NrManagerImpl::onReceive RES_INITIALDATA_CONFIG.port[52011]
+2020-07-10 02:03:57,937 9904 INFO    - NrManagerImpl::初期化情報Bを送信 port[52011]
+2020-07-10 02:03:57,938 21920 INFO    - NrManagerImpl::onReceive RES_INITIALDATA_CONFIG.port[52021]
+2020-07-10 02:03:57,941 9904 INFO    - NrManagerImpl::初期化情報Bを送信 port[52021]
+2020-07-10 02:03:58,768 20460 INFO    - TcpConnector::receivePacket closed by remote host.port[52011]
+2020-07-10 02:03:58,769 20460 INFO    - TcpConnector::tcpRecvThread stopped.port[52011]
+2020-07-10 02:03:58,769 20460 INFO    - NrManagerImpl::onDisconnect IN port[52011]
+2020-07-10 02:03:58,769 20460 INFO   EventLog - 切断_Nrプロセッサ port[52011]
+2020-07-10 02:03:58,769 20460 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:03:58,769 20460 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:03:58,769 20460 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 02:03:58,769 20460 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:03:58,770 20460 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:03:58,770 20460 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 02:03:58,770 20460 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:03:58,770 20460 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:03:58,774 20460 INFO    - NrManagerImpl::onDisconnect END port[52011]
+2020-07-10 02:03:58,774 20460 INFO    - TcpConnector::tcpRecvThread ENDport[52011]
+2020-07-10 02:03:58,774 16948 INFO    - TcpConnector::tcpSendThread ENDport[52011]
+2020-07-10 02:03:59,202 21920 INFO    - TcpConnector::receivePacket closed by remote host.port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - TcpConnector::tcpRecvThread stopped.port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - NrManagerImpl::onDisconnect IN port[52021]
+2020-07-10 02:03:59,202 21920 INFO   EventLog - 切断_Nrプロセッサ port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 02:03:59,202 21920 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:03:59,202 21920 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 02:03:59,202 21920 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:03:59,202 21920 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:03:59,206 21920 INFO    - NrManagerImpl::onDisconnect END port[52021]
+2020-07-10 02:03:59,206 21920 INFO    - TcpConnector::tcpRecvThread ENDport[52021]
+2020-07-10 02:03:59,206 21012 INFO    - TcpConnector::tcpSendThread ENDport[52021]
+2020-07-10 02:03:59,676 8452 INFO    - TcpConnector::tcpAcceptThread accept.port[52011]
+2020-07-10 02:03:59,676 8452 INFO    - TcpConnector::closeTcpConnect INport[52011]
+2020-07-10 02:03:59,676 8452 INFO    - TcpConnector::closeTcpConnect ENDport[52011]
+2020-07-10 02:03:59,676 20828 INFO    - TcpConnector::tcpSendThread INport[52011]
+2020-07-10 02:03:59,677 18728 INFO    - TcpConnector::tcpRecvThread INport[52011]
+2020-07-10 02:03:59,677 18728 INFO    - NrManagerImpl::onConnect IN port[52011]
+2020-07-10 02:03:59,677 18728 INFO   EventLog - 接続_Nrプロセッサ port[52011]
+2020-07-10 02:03:59,677 18728 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 02:03:59,677 18728 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:03:59,677 18728 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:03:59,677 18728 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 02:03:59,677 18728 INFO    - NrManagerImpl::初期化情報Aを送信 port[52011]
+2020-07-10 02:03:59,677 18728 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:03:59,677 18728 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:03:59,681 18728 INFO    - NrManagerImpl::onConnect END port[52011]
+2020-07-10 02:04:00,218 13092 INFO    - TcpConnector::tcpAcceptThread accept.port[52021]
+2020-07-10 02:04:00,218 13092 INFO    - TcpConnector::closeTcpConnect INport[52021]
+2020-07-10 02:04:00,218 13092 INFO    - TcpConnector::closeTcpConnect ENDport[52021]
+2020-07-10 02:04:00,218 3956 INFO    - TcpConnector::tcpSendThread INport[52021]
+2020-07-10 02:04:00,219 15344 INFO    - TcpConnector::tcpRecvThread INport[52021]
+2020-07-10 02:04:00,219 15344 INFO    - NrManagerImpl::onConnect IN port[52021]
+2020-07-10 02:04:00,219 15344 INFO   EventLog - 接続_Nrプロセッサ port[52021]
+2020-07-10 02:04:00,219 15344 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 02:04:00,219 15344 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:04:00,219 15344 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:04:00,219 15344 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 02:04:00,219 15344 INFO    - NrManagerImpl::初期化情報Aを送信 port[52021]
+2020-07-10 02:04:00,219 15344 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:04:00,220 15344 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:04:00,224 15344 INFO    - NrManagerImpl::onConnect END port[52021]
+2020-07-10 02:04:09,411 9904 INFO    - NrManagerImpl::onReceive ACT_START_ACTION. actId[DFE-20200710020358810]port[52004]
+2020-07-10 02:04:09,411 9904 INFO   EventLog - 演技開始 actId[DFE-20200710020358810]
+2020-07-10 02:04:09,411 9904 INFO    - NrMessageStorage::dropTable IN actId[DFE-20200710020358810]
+2020-07-10 02:04:09,412 9904 INFO    - NrMessageStorage::dropTable END
+2020-07-10 02:04:09,412 9904 INFO    - NrMessageStorage::createTable IN actId[DFE-20200710020358810]
+2020-07-10 02:04:09,413 9904 INFO    - NrMessageStorage::createTable END
+2020-07-10 02:04:09,421 9904 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:04:09,421 9904 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 02:04:09,421 9904 INFO    - NrManagerImpl::attachProcessor waiting processor exists. port[52011]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::startSilenceWatch IN port[52011]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::startSilenceWatch END port[52011]
+2020-07-10 02:04:09,422 9904 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::startSilenceWatch IN port[52004]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:04:09,422 9904 INFO    - TcpConnector::startSilenceWatch END port[52004]
+2020-07-10 02:04:19,646 9904 INFO    - NrManagerImpl::onReceive ACT_END_ACTION. actId[DFE-20200710020358810]port[52004]
+2020-07-10 02:04:19,646 9904 INFO   EventLog - 演技終了 actId[DFE-20200710020358810]
+2020-07-10 02:04:19,646 9904 ERROR   - NrManagerImpl::getProcessorState not found  DFE-20200710020358810
+2020-07-10 02:04:19,655 9904 ERROR   - NrManagerImpl::onReceive Target processor not found DFE-20200710020358810
+2020-07-10 02:04:19,664 9904 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:04:19,664 9904 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:04:24,805 18728 INFO    - NrManagerImpl::attachProcessor IN port[52011]
+2020-07-10 02:04:24,805 18728 INFO    - NrManagerImpl::attachProcessor waiting actId exists.
+2020-07-10 02:04:24,805 18728 INFO   EventLog - 演技割付 actId[DFE-20200710020358810]port[52011]
+2020-07-10 02:04:24,809 18728 INFO    - NrManagerImpl::attachProcessor END port[52011]
+2020-07-10 02:04:30,073 18728 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:04:30,073 18728 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:04:30,074 18728 INFO   EventLog - ファイル出力完了 OK actId[DFE-20200710020358810]port[52011]
+2020-07-10 02:04:30,077 18728 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY. MAP Erase DFE-20200710020358810
+2020-07-10 02:04:30,077 18728 INFO    - NrManagerImpl::onReceive REQ_FILEOUT_NOTIFY send json {"id":"DFE-20200710020358810", "type":"nearreal"} port[52011]
+2020-07-10 02:04:30,078 18728 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:04:30,078 18728 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:05:04,158 9904 INFO    - TcpConnector::receivePacket closed by remote host.port[52004]
+2020-07-10 02:05:04,158 9904 INFO    - TcpConnector::tcpRecvThread stopped.port[52004]
+2020-07-10 02:05:04,158 9904 INFO    - NrManagerImpl::onDisconnect IN port[52004]
+2020-07-10 02:05:04,158 9904 INFO   EventLog - ★WARN★_切断_RL port[52004]
+2020-07-10 02:05:04,159 9904 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:05:04,159 9904 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:05:04,159 9904 INFO    - NrMessageStorage::destructor IN
+2020-07-10 02:05:04,161 9904 INFO    - NrMessageStorage::destructor END
+2020-07-10 02:05:04,161 9904 INFO    - NrMessageStorage::~NrMessageStorage close storage[202007100203.db3]
+2020-07-10 02:05:04,161 9904 INFO    - NrManagerImpl::onDisconnect REALとの通信切断を通知 port[52011]
+2020-07-10 02:05:04,161 9904 INFO    - NrManagerImpl::onDisconnect REALとの通信切断を通知 port[52021]
+2020-07-10 02:05:04,166 9904 INFO    - NrManagerImpl::onDisconnect END port[52004]
+2020-07-10 02:05:04,166 9904 INFO    - TcpConnector::tcpRecvThread ENDport[52004]
+2020-07-10 02:05:04,166 13160 INFO    - TcpConnector::tcpSendThread ENDport[52004]
+2020-07-10 02:05:14,377 15344 INFO    - TcpConnector::receivePacket closed by remote host.port[52021]
+2020-07-10 02:05:14,377 15344 INFO    - TcpConnector::tcpRecvThread stopped.port[52021]
+2020-07-10 02:05:14,377 15344 INFO    - NrManagerImpl::onDisconnect IN port[52021]
+2020-07-10 02:05:14,377 15344 INFO   EventLog - 切断_Nrプロセッサ port[52021]
+2020-07-10 02:05:14,378 15344 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:05:14,378 15344 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:05:14,378 15344 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 02:05:14,378 15344 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:05:14,378 15344 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:05:14,378 15344 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 02:05:14,378 15344 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:05:14,378 15344 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:05:14,383 15344 INFO    - NrManagerImpl::onDisconnect END port[52021]
+2020-07-10 02:05:14,383 15344 INFO    - TcpConnector::tcpRecvThread ENDport[52021]
+2020-07-10 02:05:14,383 3956 INFO    - TcpConnector::tcpSendThread ENDport[52021]
+2020-07-10 02:05:16,040 18728 INFO    - TcpConnector::receivePacket closed by remote host.port[52011]
+2020-07-10 02:05:16,040 18728 INFO    - TcpConnector::tcpRecvThread stopped.port[52011]
+2020-07-10 02:05:16,040 18728 INFO    - NrManagerImpl::onDisconnect IN port[52011]
+2020-07-10 02:05:16,040 18728 INFO   EventLog - 切断_Nrプロセッサ port[52011]
+2020-07-10 02:05:16,041 18728 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:05:16,041 18728 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:05:16,041 18728 INFO    - NrManagerImpl::detachProcessor IN.
+2020-07-10 02:05:16,041 18728 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:05:16,041 18728 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:05:16,041 18728 INFO    - NrManagerImpl::detachProcessor SUCCESS.
+2020-07-10 02:05:16,041 18728 INFO    - NrManagerImpl::attachProcessor IN 
+2020-07-10 02:05:16,041 18728 INFO    - NrManagerImpl::attachProcessor END
+2020-07-10 02:05:16,045 18728 INFO    - NrManagerImpl::onDisconnect END port[52011]
+2020-07-10 02:05:16,045 18728 INFO    - TcpConnector::tcpRecvThread ENDport[52011]
+2020-07-10 02:05:16,045 20828 INFO    - TcpConnector::tcpSendThread ENDport[52011]
+2020-07-10 02:05:16,783 11380 INFO    - NrManager is ending(Reason:^C).
+2020-07-10 02:05:16,783 11380 INFO    - NrManager end [IN]
+2020-07-10 02:05:16,783 11380 INFO    - NrManagerImpl::end IN
+2020-07-10 02:05:16,783 11380 INFO    - TcpConnector::close INport[52004]
+2020-07-10 02:05:16,783 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:05:16,783 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:05:16,783 11380 INFO    - TcpConnector::closeTcpServer INport[52004]
+2020-07-10 02:05:16,783 3104 INFO    - TcpConnector::silenceWatchThread END port[52004]
+2020-07-10 02:05:16,783 11756 INFO    - TcpConnector::tcpAcceptThread stopped.port[52004]
+2020-07-10 02:05:16,783 11756 INFO    - TcpConnector::tcpAcceptThread ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpServer ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpConnect INport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::close ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::destructor INport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::close INport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpServer INport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpServer ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpConnect INport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::close ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::destructor ENDport[52004]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::close INport[52011]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:05:16,784 11380 INFO    - TcpConnector::closeTcpServer INport[52011]
+2020-07-10 02:05:16,784 14728 INFO    - TcpConnector::silenceWatchThread END port[52011]
+2020-07-10 02:05:16,784 8452 INFO    - TcpConnector::tcpAcceptThread stopped.port[52011]
+2020-07-10 02:05:16,785 8452 INFO    - TcpConnector::tcpAcceptThread ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpServer ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpConnect INport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::close ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::destructor INport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::close INport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpServer INport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpServer ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpConnect INport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::close ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::destructor ENDport[52011]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::close INport[52012]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52012]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52012]
+2020-07-10 02:05:16,785 11380 INFO    - TcpConnector::closeTcpServer INport[52012]
+2020-07-10 02:05:16,785 7512 INFO    - TcpConnector::tcpAcceptThread stopped.port[52012]
+2020-07-10 02:05:16,786 7512 INFO    - TcpConnector::tcpAcceptThread ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpServer ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpConnect INport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::close ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::destructor INport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::close INport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpServer INport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpServer ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpConnect INport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::close ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::destructor ENDport[52012]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::close INport[52021]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:05:16,786 11380 INFO    - TcpConnector::closeTcpServer INport[52021]
+2020-07-10 02:05:16,786 13092 INFO    - TcpConnector::tcpAcceptThread stopped.port[52021]
+2020-07-10 02:05:16,786 13092 INFO    - TcpConnector::tcpAcceptThread ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpServer ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpConnect INport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::close ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::destructor INport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::close INport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpServer INport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpServer ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpConnect INport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::close ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::destructor ENDport[52021]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::close INport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpServer INport[52022]
+2020-07-10 02:05:16,787 13332 INFO    - TcpConnector::tcpAcceptThread stopped.port[52022]
+2020-07-10 02:05:16,787 13332 INFO    - TcpConnector::tcpAcceptThread ENDport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpServer ENDport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpConnect INport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::close ENDport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::destructor INport[52022]
+2020-07-10 02:05:16,787 11380 INFO    - TcpConnector::close INport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::cancelSilenceWatch IN port[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::cancelSilenceWatch END port[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::closeTcpServer INport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::closeTcpServer ENDport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::closeTcpConnect INport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::closeTcpConnect ENDport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::close ENDport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - TcpConnector::destructor ENDport[52022]
+2020-07-10 02:05:16,788 11380 INFO    - NrManagerImpl::end END
+2020-07-10 02:05:16,788 11380 INFO    - NrManagerImpl::destructor IN
+2020-07-10 02:05:16,788 11380 INFO    - NrManagerImpl::destructor END
+2020-07-10 02:05:16,788 11380 INFO    - NrManager end [END]
